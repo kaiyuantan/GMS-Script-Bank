@@ -9,7 +9,7 @@ define(VK_PRIOR,01490000) //PageUp
 define(VK_NEXT,01510000) //PageDown
 define(VK_Z,002C0000)
 
-define(FullnessLimit,#5) //Define when feed should be triggered
+define(FullnessLimit,#30) //Define when feed should be triggered
 alloc(CheckFeed,256)
 alloc(PressKey,128)
 label(Return)
